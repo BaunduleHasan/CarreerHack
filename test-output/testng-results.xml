@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T18:32:39 EST" name="Suite1" finished-at="2022-11-10T18:33:54 EST" duration-ms="75463">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-10T18:32:39 EST" name="Nopackage" finished-at="2022-11-10T18:33:54 EST" duration-ms="75463">
+      <class name="com.swaglabs.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:32:39 EST" name="setUpClass" finished-at="2022-11-10T18:32:39 EST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1c628f6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:32:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-10T18:32:47 EST" duration-ms="8629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify filter menu is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify filter button"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:32:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-10T18:33:08 EST" duration-ms="20928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:33:08 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-10T18:33:12 EST" duration-ms="3226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:33:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-10T18:33:30 EST" duration-ms="18715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:33:30 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-10T18:33:54 EST" duration-ms="23759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.swaglabs.runners.TestRunner@59505b48]" started-at="2022-11-10T18:33:54 EST" name="tearDownClass" finished-at="2022-11-10T18:33:54 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.swaglabs.runners.TestRunner -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
